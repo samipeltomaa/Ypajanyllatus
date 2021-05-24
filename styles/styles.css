@@ -1,0 +1,118 @@
+h2 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h3 {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Montserrat", serif;
+}
+
+
+p {
+  font-size: 0.9rem;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Montserrat", serif;
+}
+
+.monsterrat-list {
+  font-family: "Montserrat", serif;
+  font-weight: 300;
+}
+.caption {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  padding: 5%;
+}
+
+.card-header {
+  background-color: green;
+  color: white;
+}
+
+.card-text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.info {
+  font-weight: normal;
+  font-size: 90%;
+}
+
+
+.hinta-box {
+  padding: 5%;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.colored-section {
+  background-color: green;
+  color: white;
+}
+.container-fluid {
+  padding: 5% 15%;
+}
+.top-container {
+  padding: 1% 15% 5%;
+}
+.logo {
+  display: block;
+  margin: 30px auto 30px auto;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+.vuokra-box {
+  padding: 11% 0;
+}
+.kuntosali-margin {
+  margin-bottom: 20%
+}
+.kuntosali-h2 {
+  margin-top: 20%;
+}
+.carousel-p {
+  padding-top: 5%;
+}
+.navbar-collapse {
+  background-color: white;
+  height: 250px;
+  overflow: hidden;
+}
+.collapsed {
+  overflow-y:scroll;
+}
+
+.navbar-toggler {
+  overflow: hidden;
+}
+.sticky-top {
+  background-color: white;
+}
+.takaisin {
+  color: white;
+  text-decoration-line: none;
+}
+.takas {
+  margin-left: 60%;
+  margin-top: 5%;
+
+}
+.nav-brand-title {
+  font-family: "Merriweather", serif;
+}
+.navbar-padding {
+  padding: 5%;
+}
+ .text-align-left {
+   text-align: left;
+ }

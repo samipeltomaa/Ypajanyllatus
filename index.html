@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Ypäjän Yllätys</title>
+    <!-- Google Fontit -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/styles.css">
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+    <script>
+$(document).ready(function () {
+  $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+});
+</script>
+  </head>
+  <body>
+
+
+
+
+    <!-- Yleiset tiedot yrityksen toiminnasta -->
+    <section class="white-section" id="yleistä">
+      <div class="container-fluid top-container">
+        <!-- Navigointi palkki -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <a class="navbar-brand nav-brand-title" href="#">Ypäjän Yllätys</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#bingo">Bingo</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#hinnat">Hinnasto</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#hinnat">Vuokrat</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="Liikuntavuorot.html">Liikuntavuorot</a>
+            </li>
+            <li class="navbar-item">
+              <a class="nav-link active" aria-current="page" href="#">Yhteystiedot</a>
+            </li>
+          </ul>
+        </div>
+        </nav>
+
+
+    <div class="row">
+      <div class="col-lg-12">
+        <img class="logo" src="styles/images/ypajanyllatuslogo.jpg" alt="Ypäjän-Yllätys-logo">
+        <h3>Ypäjän Yllätys on liikuntaa järjestävä yleishyödyllinen, rekisteröity yhdistys, jonka virallinen nimi on Ypäjän Yllätys ry, nimen lyhenne YpäY, päätoimiala urheiluseurojen toiminta ja kotipaikka Ypäjä. Yhdistyksellä on oma liikuntahalli (Pertunkaari), josta löytyy kunto-, tanssi-/peili- ja palloilusalit. Yhdistyksen pitämä iltabingo (Yllätys-Bingo) on yksi Suomen suurimmista bingoista.</h3>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Yllätys-Bingo -->
+    <section class="colored-section" id="bingo">
+      <div class="container-fluid">
+        <h2>Yllätys-Bingo</h2>
+        <h3>Pidämme bingon vielä toistaiseksi tauolla suositusten mukaisesti, mutta palaamme tauolta heti, kun suositukset näyttävät sille vihreää valoa! Seuraa aloitusilmoitusta Yllätys-Bingon Facebook-sivulta facebook.com/yllatysbingo ja Ypäjän Yllätyksen kotisivulta ypajanyllatys.fi.</h3>
+        <ul class="bingolist monsterrat-list">
+          <li>Pertunkaaressa (Pertuntie 5, Ypäjä).</li>
+          <li>Sunnuntaisin</li>
+          <li>Ovet avataan kello 16:30.</li>
+          <li>Pelaaminen aloitetaan kello 18:00.</li>
+          <li>Pelaamisen välissä yksi tauko.</li>
+          <li>Pelaajille tarjolla veloituksetta kahvia joka kerta.</li>
+          <li>Kirja neljä euroa, irtopeliliuskat yksi-kolme euroa, arvat yksi-kaksi euroa.</li>
+          <li>Asiakkaat saavat itse valita kaikki peliliuskat ja arvat runsaasta valikoimasta.</li>
+          <li>Bingosta voitot pelaajan valinnan mukaan S-ryhmän tai K-ryhmän lahjakortteina.</li>
+          <li>Bingosta pienin jaettava voitto 20,00 euroa, jakoon mennessä kymmenen euroa.</li>
+          <li>Kioskista edullisesti leivonnaisia ja paljon muuta.</li>
+          <li>Myynnissä Huiluntuhti-makkaraa grillattuna.</li>
+          <li>Arvoista voitot asiakkaan valinnan mukaan kioskin valikoimasta (lahjakortteja, arpoja, kahvipaketteja ja paljon muuta).</li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Hinnat (Vuokratiloille ja kuntosalin hinnat) -->
+    <section class="white-section">
+      <div class="container-fluid" id="hinnat">
+        <div id="hinta-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="5000" data-bs-pause="hover">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#hinta-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#hinta-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2>Pertunkaaren kuntosalin hinnasto</h2>
+              <h3 class="carousel-p">Hinnat ovat jäsenhintoja, muille hintoihin lisätään 20,00 euroa. Yhdistyksen jäsenmaksu on 15,00 euroa/kalenterivuosi. Avaintunnisteen avainpantti on 50,00 euroa, jonka saa takaisin avaimen palautettuaan.</h3>
+              <div class="row">
+                <div class="hinta-box col-lg-4">
+                  <div class="card h-100 text-center">
+                    <h3 class="card-header">Perusavain</h3>
+                    <div class="card-body">
+                      <p class="card-text">30,00€ / kuukausi</p>
+                      <p class="card-text">60,00€ / kolme kuukautta</p>
+                      <p class="card-text"> 100,00€ / kuusi kuukautta</p>
+                      <p class="card-text"> 180,00€ / vuosi</p>
+                      <p class="card-text info"> *Saa käydä kellon ympäri*</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hinta-box col-lg-4">
+                  <div class="card h-100 text-center">
+                    <h3 class="card-header">Päiväavain</h3>
+                    <div class="card-body">
+                      <p class="card-text">25,00€ / kuukausi</p>
+                      <p class="card-text">45,00€ / kolme kuukautta</p>
+                      <p class="card-text"> 70,00€ / kuusi kuukautta</p>
+                      <p class="card-text"> 120,00€ / vuosi</p>
+                      <p class="card-text info"> *Saa käydä kello 4:00 - 14:00 välisenä aikana*</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hinta-box col-lg-4">
+                  <div class="card h-100 text-center">
+                    <h3 class="card-header">Kymppiavain</h3>
+                    <div class="card-body">
+                      <p class="card-text"></p>
+                      <p class="card-text">40,00€ / kymmenen kertaa</p>
+                      <p class="card-text info"> *Saa käydä kellon ympäri*</p>
+                      <p class="card-text"></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item container-fluid">
+              <h2 class="kuntosali-h2">Pertunkaaren liikuntasalien vuokrat</h2>
+              <h3 class="carousel-p">Salien vuokrahinnat per tunti / tilaisuus, palloilu- ja tanssi-/pelisali soveltuvat myös muuhun kuin niiden tarkoitettuun käyttöön. Kysy lisää.</h3>
+              <div class="row">
+                <div class="hinta-box vuokra-box col-lg-4">
+                  <div class="card text-center">
+                    <h3 class="card-header">Palloilusali:</h3>
+                    <div class="card-body">
+                      <p class="card-text">Liikuntaan: 30,00€ / tunti <br>tai 120,00€ /tilaisuus</p>
+                      <p class="card-text">Muuhun käyttöön: 35,00€ / tunti <br>tai 140,00€ / tilaisuus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hinta-box vuokra-box col-lg-4">
+                  <div class="card h-100 text-center">
+                    <h3 class="card-header">Tanssi- / pelisali:</h3>
+                    <div class="card-body">
+                      <p class="card-text">Liikuntaan: 15,00€ / tunti <br>tai 60,00€ / tilaisuus</p>
+                      <p class="card-text">Muuhun käyttöön: 20,00€ / tunti <br>tai 80,00€ / tilaisuus</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="hinta-box vuokra-box col-lg-4 kuntosali-margin">
+                  <div class="card h-100 text-center">
+                    <h3 class="card-header">Kuntosali:</h3>
+                    <div class="card-body">
+                      <p class="card-text">Liikuntaan: 60,00€ / tunti</p>
+                      <p class="card-text">Muuhun käyttöön: Ei vuokrata</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#hinta-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#hinta-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Yhteystiedot -->
+    <section class="colored-section" id="yhteystiedot">
+      <div class="container-fluid">
+        <h2>Ypäjän Yllätyksen yhteystiedot</h2>
+        <h3 class="huomio">Huomio! Laskutukseen, iltabingoon ja kuntosalin avaintunnisteisiin sekä käyttöoikeuksiin liittyvät
+          yhteydenotot <a class="takaisin" href="mailto: toimisto@ypajanyllatys.fi">toimisto@ypajanyllatys.fi</a> tai 045 235 6212.
+        </h3>
+        <h3 class="text-align-left">Mediavastaava (markkinointiin liittyvät kehitysehdotukset):</h3>
+        <ul class="monsterrat-list">
+          <li>Kalle Kähkönen</li>
+          <li><a class="takaisin" href="mailto: mediavastaava@ypajanyllatys.fi">mediavastaava@<br>ypajanyllatys.fi</a></li>
+        </ul>
+        <h3 class="text-align-left">Lentopallojaoston puheenjohtaja (lentopallotoimintaan liittyvät tiedustelut, toiveet ja kehitysehdotukset):</h3>
+        <ul class="monsterrat-list">
+          <li>Pasi Paloposki</li>
+          <li><a class="takaisin" href="mailto: lentopallojaosto@ypajanyllatys.fi">lentopallojaosto@<br>ypajanyllatys.fi</a></li>
+        </ul>
+        <h3 class="text-align-left">Liikuntavastaava (tanssi-/peili-, palloilu- ja kuntosalin varaukset liikuntavälineiden ja kaluston vuokraukset, liikuntatoimintaan ja -välineisiin liittyvät tiedustelut, toiveet ja kehitysehdotukset):</h3>
+        <ul class="monsterrat-list">
+          <li>Mirka Kaunisto-Vuorentausta / Mirva Auvinen / Riikka Lahdemäki</li>
+          <li><a class="takaisin" href="mailto: liikutavastaava@ypajanyllatys.fi">liikuntavastaava@<br>ypajanyllatys.fi</a></li>
+          <li>045 236 3136</li>
+        </ul>
+        <h3 class="text-align-left">Hallituksen puheenjohtaja (hallituksen tai yhdistyksen yleisen kokouksessa käsiteltäväksi haluttavat asiat, haastattelupyynnöt, loput muille kuulumattomat asiat):</h3>
+        <ul class="monsterrat-list">
+          <li>Keijo Vuorentausta</li>
+          <li><a class="takaisin" href="mailto: puheenjohtaja@ypajanyllatys.fi">puheenjohtaja@<br>ypajanyllatys.fi</a></li>
+          <li>045 664 9221</li>
+        </ul>
+        <h3 class="huomio">Lisätietoa löydät Ypäjän Yllätyksen viralliselta ilmoitustaululta Pertunkaaresta, <a class="takaisin" href="facebook.com/ypajanyllatys">Facebook-sivuiltamme, johon pääset tästä linkistä</a> sekä <a class="takaisin" href="facebook.com/yllatysbingo">Yllätys-Bingon Facebook-sivuilta, johon pääset tästä linkistä</a>!</h3>
+      </div>
+    </section>
+
+
+
+
+
+  </body>
+</html>
