@@ -1,3 +1,5 @@
+
+
 h2 {
   text-align: center;
   font-family: "Merriweather", serif;
@@ -72,7 +74,7 @@ p {
   margin-left: auto;
 }
 .vuokra-box {
-  padding: 11% 0;
+  padding: 1% 0;
 }
 .kuntosali-margin {
   margin-bottom: 20%
@@ -100,7 +102,7 @@ p {
 }
 .takaisin {
   color: white;
-  text-decoration-line: none;
+
 }
 .takas {
   margin-left: 60%;
@@ -116,3 +118,52 @@ p {
  .text-align-left {
    text-align: left;
  }
+ .copyright {
+   font-family: "Montserrat", serif;
+   font-weight: 200;
+ }
+
+
+  @media screen and (min-width: 992px) {
+    .kuntosali-margin {
+      margin-bottom: 1%
+    }
+    .kuntosali-h2 {
+      margin-top: 1%;
+      padding-top: 0%;
+    }
+    #navbarNav{
+      height: 100px;
+    }
+    #navbarNavi {
+      height: 400px;
+    }
+    .navbar {
+      height: 100px;
+    }
+    .top-container {
+      padding: 1% 15% 1%;
+    }
+    .hinta-box {
+      padding: 0;
+    }
+    .vuokra-box {
+      padding: 4% 0 20%;
+    }
+    .huomio {
+      padding: 3% 0;
+    }
+    .monsterrat-list {
+      padding: 2% 0;
+    }
+    .navbar-padding {
+      padding: 1%;
+    }
+    .navbar-collapse {
+      height: 500px;
+    }
+    .takas {
+      margin-left: 85%;
+      margin-top: 3%;
+    }
+  }
